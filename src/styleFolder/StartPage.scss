@@ -1,0 +1,133 @@
+.main {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 70vh;
+	padding-top: 5vh;
+	.container1 {
+		margin: 100px 10px 0 50px;
+		h2 {
+			font-size: 50px;
+			text-transform: uppercase;
+			margin-bottom: 10%;
+			color: rgb(19, 165, 19);
+			font-family: "Fredoka One", cursive;
+			line-height: 4rem;
+		}
+		article {
+			text-transform: uppercase;
+			font-family: "Inter", sans-serif;
+			font-size: 25px;
+			color: white;
+			line-height: 3rem;
+			background-color: orange;
+			padding-right: 30px;
+			text-align: center;
+			box-shadow: 2px 2px 5px 0px orange;
+		}
+		img {
+			position: absolute;
+			left: 7%;
+			top: 65%;
+			width: 300px;
+			height: 250px;
+		}
+	}
+
+	.container2 {
+		.img {
+			text-align: center;
+			position: absolute;
+			width: 900px;
+			height: 700px;
+		}
+	}
+}
+@media screen and (max-width: 1440px) {
+	.main {
+		.container1 {
+			h2 {
+				font-size: 40px;
+			}
+			img {
+				left: 5%;
+				top: 70%;
+				width: 300px;
+				height: 250px;
+			}
+		}
+		.container2 {
+			img {
+				width: 700px;
+				height: 600px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.main {
+		.container1 {
+			margin: 80px 10px 0 50px;
+			article {
+				font-size: 20px;
+				line-height: 40px;
+			}
+			img {
+				left: 10%;
+				top: 75%;
+				width: 280px;
+				height: 200px;
+			}
+		}
+		.container2 {
+			img {
+				width: 500px;
+				height: 550px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 768px) {
+	.main {
+		padding-top: 10vh;
+		height: 70vh;
+		.container1 {
+			h2 {
+				font-size: 30px;
+				text-align: center;
+				line-height: 3rem;
+			}
+			article {
+				font-size: 18px;
+				line-height: 2rem;
+			}
+			img {
+				display: none;
+			}
+		}
+		.container2 {
+			img {
+				width: 380px;
+				height: 500px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 425px) {
+	.main {
+		grid-template-columns: 100%;
+		padding-top: 0;
+		.container1 {
+			margin: 0;
+			h2 {
+				margin-bottom: 5%;
+			}
+		}
+		.container2 {
+			img {
+				width: 600px;
+				height: 300px;
+			}
+		}
+	}
+}
