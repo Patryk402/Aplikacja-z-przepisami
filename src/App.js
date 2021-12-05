@@ -10,7 +10,7 @@ import RenderPage from "./RenderPage";
 
 function App() {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<Header/>
 			<RenderPage />
 		</Router>
