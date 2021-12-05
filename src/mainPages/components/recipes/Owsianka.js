@@ -1,10 +1,10 @@
 import React from "react";
 
-import img from "./breakfastImages/owsianka.jpg";
+import img from "./pictures/owsianka.jpg";
 
-import clock from "../contentImages/clock.png";
-import person from "../contentImages/person.png";
-import star1 from "../contentImages/star1.png";
+import clock from "../icons/clock.png";
+import person from "../icons/person.png";
+import star1 from "../icons/star1.png";
 
 const Jajecznica = () => {
 	return (

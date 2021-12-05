@@ -4,7 +4,7 @@ import { Route } from "react-router-dom";
 
 import StartPage from "./mainPages/StartPage";
 import Sniadania from "./mainPages/Sniadania";
-import SniadaniaMain from "./mainPages/sniadaniaComponents/SniadaniaMain";
+import SniadaniaMain from "./mainPages/components/SniadaniaMain";
 
 const RenderPage = () => {
 	return (
