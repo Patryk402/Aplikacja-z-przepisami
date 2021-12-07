@@ -40,7 +40,7 @@ const Jajecznica = () => {
 						</li>
 						<li>
 							<input type="checkbox" />
-							Sół - 1 szczypta.
+							Sól - 1 szczypta.
 						</li>
 						<li>
 							<input type="checkbox" />
